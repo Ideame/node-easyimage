@@ -139,17 +139,17 @@ exports.convert = function(options) {
 		if ( options.limit ) {
 			args.push("-limit")
 			args.push("memory")
-			args.push(options.limit.memory || "2MiB")
+			args.push(options.limit.memory || "1")
 			args.push("-limit")
 			args.push("map")
-			args.push(options.limit.map || "4MiB")
+			args.push(options.limit.map || "1")
 		} else {
 			args.push("-limit")
 			args.push("memory")
-			args.push("2MiB")
+			args.push("1")
 			args.push("-limit")
 			args.push("map")
-			args.push("4MiB")
+			args.push("1")
 		}
 
 		args.push(options.src);
@@ -204,17 +204,17 @@ exports.rotate = function(options) {
 		if ( options.limit ) {
 			args.push("-limit")
 			args.push("memory")
-			args.push(options.limit.memory || "2MiB")
+			args.push(options.limit.memory || "1")
 			args.push("-limit")
 			args.push("map")
-			args.push(options.limit.map || "4MiB")
+			args.push(options.limit.map || "1")
 		} else {
 			args.push("-limit")
 			args.push("memory")
-			args.push("2MiB")
+			args.push("1")
 			args.push("-limit")
 			args.push("map")
-			args.push("4MiB")
+			args.push("1")
 		}
 
 		args.push(options.src);
@@ -271,17 +271,17 @@ exports.resize = function(options) {
 		if ( options.limit ) {
 			args.push("-limit")
 			args.push("memory")
-			args.push(options.limit.memory || "2MiB")
+			args.push(options.limit.memory || "1")
 			args.push("-limit")
 			args.push("map")
-			args.push(options.limit.map || "4MiB")
+			args.push(options.limit.map || "1")
 		} else {
 			args.push("-limit")
 			args.push("memory")
-			args.push("2MiB")
+			args.push("1")
 			args.push("-limit")
 			args.push("map")
-			args.push("4MiB")
+			args.push("1")
 		}
 
 		args.push(options.src);
@@ -352,17 +352,17 @@ exports.crop = function(options) {
 		if ( options.limit ) {
 			args.push("-limit")
 			args.push("memory")
-			args.push(options.limit.memory || "2MiB")
+			args.push(options.limit.memory || "1")
 			args.push("-limit")
 			args.push("map")
-			args.push(options.limit.map || "4MiB")
+			args.push(options.limit.map || "1")
 		} else {
 			args.push("-limit")
 			args.push("memory")
-			args.push("2MiB")
+			args.push("1")
 			args.push("-limit")
 			args.push("map")
-			args.push("4MiB")
+			args.push("1")
 		}
 
 		args.push(options.src);
@@ -432,17 +432,17 @@ exports.rescrop = function(options) {
 		if ( options.limit ) {
 			args.push("-limit")
 			args.push("memory")
-			args.push(options.limit.memory || "2MiB")
+			args.push(options.limit.memory || "1")
 			args.push("-limit")
 			args.push("map")
-			args.push(options.limit.map || "4MiB")
+			args.push(options.limit.map || "1")
 		} else {
 			args.push("-limit")
 			args.push("memory")
-			args.push("2MiB")
+			args.push("1")
 			args.push("-limit")
 			args.push("map")
-			args.push("4MiB")
+			args.push("1")
 		}
 
 		args.push(options.src);
@@ -522,17 +522,17 @@ exports.thumbnail = function(options) {
 			if ( options.limit ) {
 				args.push("-limit")
 				args.push("memory")
-				args.push(options.limit.memory || "2MiB")
+				args.push(options.limit.memory || "1")
 				args.push("-limit")
 				args.push("map")
-				args.push(options.limit.map || "4MiB")
+				args.push(options.limit.map || "1")
 			} else {
 				args.push("-limit")
 				args.push("memory")
-				args.push("2MiB")
+				args.push("1")
 				args.push("-limit")
 				args.push("map")
-				args.push("4MiB")
+				args.push("1")
 			}
 
 			args.push(options.src);
